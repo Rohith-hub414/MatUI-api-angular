@@ -1,0 +1,29 @@
+<mat-card>
+  <h1>Login</h1>
+  <form class="login-card" [formGroup]="form">
+    <mat-form-field appearance="outline">
+      <mat-label>Username</mat-label>
+      <input formControlName="username" matInput />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input formControlName="password" matInput type="password" />
+    </mat-form-field>
+  </form>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="onSubmit(form)"
+    [disabled]="form.invalid"
+  >
+    Submit
+  </button>
+  <button
+    mat-raised-button
+    color="primary"
+    class="new-user-btn"
+    (click)="reDirectToRegister()"
+  >
+    New User?
+  </button>
+</mat-card>

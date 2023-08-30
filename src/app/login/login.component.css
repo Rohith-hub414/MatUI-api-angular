@@ -1,0 +1,22 @@
+.login-card {
+  display: flex;
+  flex-direction: column;
+}
+mat-card {
+  width: 400px;
+  /* height: 300px; */
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+button {
+  width: 100px;
+  margin-left: 125px;
+}
+.new-user-btn {
+  margin-top: 15px;
+  margin-left: 115px;
+  width: 120px;
+}

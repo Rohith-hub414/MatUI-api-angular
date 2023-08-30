@@ -1,0 +1,42 @@
+<div class="conatiner1">
+  <div class="main-container">
+    <article>
+      <mat-toolbar color="primary">
+        <div class="container">
+          <span>My App</span>
+          <div class="nav-container">
+            <button mat-button color="primary">
+              <a routerLink="home" routerLinkActive="active">Home</a>
+            </button>
+            <button mat-button color="primary">
+              <a routerLink="product-list" routerLinkActive="active"
+                >Product-List</a
+              >
+            </button>
+            <button mat-button color="primary">
+              <a routerLink="cart" routerLinkActive="active">cart</a>
+            </button>
+            <button mat-button color="primary">
+              <a routerLink="users" routerLinkActive="active">Users</a>
+            </button>
+            <button mat-button color="primary">
+              <a routerLink="login" routerLinkActive="active">Logout</a>
+            </button>
+          </div>
+        </div>
+      </mat-toolbar>
+      <router-outlet></router-outlet>
+    </article>
+
+    <!-- <footer></footer> -->
+    <footer class="footer">
+      <div class="content">
+        <p>
+          Follow us on <a href="https://example.com">Twitter</a> and
+          <a href="https://example.com">Facebook</a>.
+        </p>
+        <p>© Created By Rohith. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+</div>

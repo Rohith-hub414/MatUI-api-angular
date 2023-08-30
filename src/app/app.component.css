@@ -1,0 +1,28 @@
+footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.233);
+}
+article {
+  min-height: 90vh;
+}
+
+.nav-container {
+  display: flex;
+}
+.nav-container a {
+  text-decoration: none;
+  color: white;
+}
+.active {
+  text-decoration: underline !important;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.submit-btn {
+  margin: auto;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+table {
+  width: 100%;
+}
+.container {
+  width: 90vw;
+  margin: auto;
+  margin-top: 60px;
+}
+.button-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
